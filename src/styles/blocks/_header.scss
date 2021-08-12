@@ -1,20 +1,41 @@
-/* Шапка сайта */
-
-.header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 1000;
-    width: 100%;
-    background-color: #152B3C;
-}
-
-.header-wrap {
-    display: flex;
-    align-items: center;
-}
-
-.h1-title {
-    margin-right: auto;
-    color: white;
-}
+    /* Шапка сайта */
+    
+    .header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1000;
+        width: 100%;
+        background-color: #152B3C;
+    }
+    
+    .header-wrap {
+        display: flex;
+        align-items: center;
+    }
+    
+    .main-logo {
+        margin-right: auto;
+        position: static;
+        width: 206px;
+        height: 49px;
+        left: 81px;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 42px;
+        line-height: 49px;
+        text-decoration: none;
+    }
+    
+    .phone {
+        margin-left: 20px;
+        font-size: 28px;
+        line-height: 33px;
+        font-family: 'Roboto';
+        text-decoration: none;
+    }
+    
+    .main-logo,
+    .phone {
+        color: #FBF2DA;
+    }

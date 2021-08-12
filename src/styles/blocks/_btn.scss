@@ -1,5 +1,9 @@
 // /Кнопки/ 
 .btn {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
     display: flex;
     padding: 15px 30px;
     position: static;
@@ -7,5 +11,10 @@
     height: 63px;
     bottom: 0;
     border-radius: 5px;
-    color: #D46240;
+    color: #FFFFFF;
+    background-color: #D46240;
+    border-radius: 5px;
+    font: none;
+    margin: 5px 0px;
+    align-items: center;
 }

@@ -1,0 +1,23 @@
+.main-nav {
+    text-align: center;
+    ul {
+        margin: 0;
+        padding: 0;
+    }
+    li {
+        display: inline-block;
+    }
+    a {
+        display: block;
+        padding: 40px 32px;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 33px;
+        position: static;
+        color: $color-accent;
+        text-decoration: none;
+    }
+    .active {
+        color: #D46240;
+    }
+}
